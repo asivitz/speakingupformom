@@ -1,0 +1,282 @@
+@charset "UTF-8";
+body {
+  color: black;
+  width: 700px;
+  font-size: 26px;
+  margin: 2em auto 2em auto;
+  font-family: mr-eaves-sans, sans-serif;
+  font-style: normal;
+  font-weight: 300; }
+
+p {
+  line-height: 1.35;
+  margin: 0.7em 0; }
+  p a {
+    text-decoration: underline; }
+
+em {
+  font-style: italic; }
+
+strong {
+  font-weight: bold; }
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 3em; }
+  .cover h2 {
+    margin-top: 0.7em;
+    margin-bottom: 3em;
+    font-size: 120%; }
+  .cover img {
+    /*border: 1px solid #ccc;*/
+    /*padding: 0.2em;*/
+    margin: 1.8em; }
+  .cover h3 {
+    margin: 0.4em 0; }
+  .cover div h3:nth-child(2) {
+    padding-left: 1em; }
+
+.dredd .chtitle h1 {
+  font-size: 90%; }
+
+.dredd .chtitle h2 {
+  margin: 1.6em 0;
+  font-size: 90%; }
+
+.dredd .chbody {
+  font-family: ingra, sans-serif;
+  font-weight: 100;
+  font-size: 80%; }
+  .dredd .chbody p {
+    line-height: 1.55; }
+  .dredd .chbody blockquote {
+    font-size: 1em;
+    margin: 0em .5em;
+    margin-top: 2.5em;
+    line-height: 1.2em;
+    quotes: "“" "”";
+    text-align: center;
+    display: block; }
+    .dredd .chbody blockquote:before {
+      color: #808080;
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0;
+      vertical-align: -.44em;
+      padding: 0 .1em 0 .1em; }
+    .dredd .chbody blockquote:after {
+      color: #808080;
+      content: close-quote;
+      font-size: 4em;
+      line-height: 0.3em;
+      margin-right: 0.25em;
+      vertical-align: -0.44em;
+      padding: 0 0 0 0.1em; }
+    .dredd .chbody blockquote:first-child {
+      display: absolute; }
+    .dredd .chbody blockquote:last-child {
+      display: absolute; }
+  .dredd .chbody h2 {
+    margin: 0.8em 0;
+    margin-top: 1.2em;
+    font-size: 120%;
+    line-height: 1.35; }
+
+.chapter .chtitle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center; }
+  .chapter .chtitle .topline {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .chapter .chtitle .topline .num {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 65%;
+      margin-bottom: 0.7em; }
+    .chapter .chtitle .topline .name {
+      font-weight: bold;
+      font-size: 130%;
+      margin-bottom: 0.4em; }
+  .chapter .chtitle h2 {
+    margin: 0.6em 0;
+    margin-top: 1em;
+    font-size: 90%; }
+
+.chapter .chbody h2 {
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 85%;
+  text-transform: uppercase;
+  letter-spacing: 0.05em; }
+
+.chapter .chbody ul li, .chapter .chbody ol li {
+  margin: 0.3em 0;
+  line-height: 1.35; }
+
+.chapter .chbody ul li {
+  list-style-type: disc; }
+
+.chapter .chbody blockquote {
+  font-size: 95%;
+  margin: 0 2em;
+  line-height: 1.30; }
+  .chapter .chbody blockquote p {
+    margin: 0.1em 0; }
+  .chapter .chbody blockquote footer {
+    display: block;
+    font-style: italic; }
+    .chapter .chbody blockquote footer:before {
+      content: "—"; }
+
+.chapter .chbody a {
+  text-transform: uppercase;
+  font-size: 82%;
+  letter-spacing: 0.06em;
+  font-weight: 400; }
+
+.chapter .chbody .footnoteRef {
+  font-size: 80%;
+  text-transform: none;
+  letter-spacing: 0;
+  bottom: 0.7em;
+  position: relative;
+  font-style: initial;
+  font-weight: 400 .chapter .chbody .footnoteRef; }
+  .chapter .chbody .footnoteRef :before {
+    content: ""; }
+  .chapter .chbody .footnoteRef:after {
+    content: ""; }
+
+.chapter .chbody .footnotes ol {
+  list-style-type: decimal; }
+  .chapter .chbody .footnotes ol li p a:last-child {
+    padding: 0 0.3em; }
+
+.book {
+  line-height: 1.2em; }
+  .book h1 {
+    font-size: 120%;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0.3em 0; }
+  .book ul {
+    margin: 1em 0; }
+  .book .dedication, .book .copyright, .book .foreward, .book .preface, .book .acknowledgements, .book .introduction, .book .doctorisin, .book .intro, .book .about, .book .aboutdredd, .book .comingsoon {
+    margin-top: 0.7em;
+    font-weight: 400;
+    font-size: 90%;
+    text-transform: uppercase;
+    letter-spacing: 0.05em; }
+  .book .contents_chapter,
+  .book .epilogue, .book .afterword, .book .moretoknow, .book .doctortocall, .book .betheirvoice, .book .donoharm, .book .rehab, .book .noplacelikehome, .book .findingaplace, .book .enoughisenough, .book .notyourjourney {
+    margin: 0.3em 1em 0 1em;
+    font-size: 90%; }
+  .book .dredd_ch1 {
+    font-size: 80%;
+    margin-left: 1em;
+    font-style: italic; }
+  .book .pages .num {
+    text-transform: uppercase;
+    font-size: 60%;
+    position: absolute;
+    left: -4.5em;
+    width: 4em;
+    text-align: right;
+    top: 0.17em; }
+  .book .pages li {
+    position: relative; }
+
+a {
+  color: black;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+ul li {
+  list-style-type: none; }
+
+.poem {
+  margin: 1em 1.5em;
+  font-style: italic; }
+  .poem p {
+    text-indent: 0;
+    margin: 0; }
+
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 105%;
+  text-align: center; }
+
+.section_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid #aaa;
+  text-transform: uppercase;
+  font-size: 75%;
+  letter-spacing: 0.05em; }
+
+.section_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3em;
+  text-transform: uppercase;
+  font-size: 80%;
+  letter-spacing: 0.05em;
+  border-top: 1px solid #888;
+  padding-top: 0.4em; }
+  .section_footer div {
+    width: 45%; }
+  .section_footer div:nth-child(1) {
+    text-align: left; }
+  .section_footer div:nth-child(2) {
+    text-align: right; }
+
+.cover_footer {
+  border-top: 1px solid black;
+  padding-top: 0.3em;
+  display: flex;
+  font-size: 90%;
+  justify-content: space-between; }
+
+.tip {
+  margin: 2em 2em 2em 4em;
+  min-height: 4em; }
+  .tip em {
+    text-transform: uppercase;
+    margin-right: 0.4em;
+    font-weight: 500;
+    font-style: normal; }
+  .tip::before {
+    content: "";
+    float: left;
+    width: 4em;
+    height: 4em;
+    background: url(/images/pencil.png);
+    background-size: 3.5em 3.5em;
+    background-repeat: no-repeat;
+    background-position: -0.6em 0.3em;
+    position: absolute;
+    margin-left: -3.5em; }
+
+p.caption {
+  display: none; }
+
+.picdiv {
+  text-align: center; }
+  .picdiv .picture {
+    height: 10em;
+    border: 0.05em solid black; }
