@@ -26,10 +26,12 @@ strong {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid black;
-  padding-bottom: 3em; }
+  padding-bottom: 2em; }
+  .cover h1 {
+    margin-bottom: 0.3em; }
   .cover h2 {
-    margin-top: 0.7em;
-    margin-bottom: 3em;
+    margin-top: 0.3em;
+    margin-bottom: 1.5em;
     font-size: 120%; }
   .cover img {
     /*border: 1px solid #ccc;*/
@@ -166,7 +168,7 @@ strong {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    margin: 0.3em 0; }
+    /*margin: 0.3em 0;*/ }
   .book ul {
     margin: 1em 0; }
   .book .dedication, .book .copyright, .book .foreward, .book .preface, .book .acknowledgements, .book .introduction, .book .doctorisin, .book .intro, .book .about, .book .aboutdredd, .book .comingsoon {
