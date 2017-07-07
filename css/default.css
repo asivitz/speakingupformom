@@ -188,17 +188,17 @@ strong {
     /*margin: 0.3em 0;*/ }
   .book ul {
     margin: 1em 0; }
-  .book .dedication, .book .copyright, .book .foreward, .book .preface, .book .acknowledgements, .book .introduction, .book .doctorisin, .book .intro, .book .about, .book .aboutdredd, .book .comingsoon {
+  .book #dedication, .book #copyright, .book #foreward, .book #preface, .book #acknowledgements, .book #introduction, .book #doctorisin, .book #intro, .book #about, .book #aboutdredd, .book #comingsoon {
     margin-top: 0.7em;
     font-weight: 400;
     font-size: 90%;
     text-transform: uppercase;
     letter-spacing: 0.05em; }
   .book .contents_chapter,
-  .book .epilogue, .book .afterword, .book .moretoknow, .book .doctortocall, .book .betheirvoice, .book .donoharm, .book .rehab, .book .noplacelikehome, .book .findingaplace, .book .enoughisenough, .book .notyourjourney {
+  .book #epilogue, .book #afterword, .book #moretoknow, .book #doctortocall, .book #betheirvoice, .book #donoharm, .book #rehab, .book #noplacelikehome, .book #findingaplace, .book #enoughisenough, .book #notyourjourney {
     margin: 0.3em 1em 0 1em;
     font-size: 90%; }
-  .book .dredd_ch1, .book .dredd_ch2, .book .dredd_ch3, .book .dredd_ch4, .book .dredd_ch5, .book .dredd_ch6, .book .dredd_ch7, .book .dredd_ch8, .book .dredd_ch9 {
+  .book #dredd_ch1, .book #dredd_ch2, .book #dredd_ch3, .book #dredd_ch4, .book #dredd_ch5, .book #dredd_ch6, .book #dredd_ch7, .book #dredd_ch8, .book #dredd_ch9 {
     font-size: 80%;
     margin-left: 1em;
     font-style: italic; }
@@ -218,6 +218,8 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+  a:visited {
+    color: #70708a; }
 
 ul li {
   list-style-type: none; }

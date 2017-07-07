@@ -21,11 +21,20 @@
     </head>
     <body>
         <div id="content">
-            <div class="book">
+            <script>
+    function scrollIntoView(eleID) {
+        var e = document.getElementById(eleID);
+        if (!!e && e.scrollIntoView) {
+            e.scrollIntoView({behavior:"smooth"});
+        }
+    }
+</script>
+
+<div class="book">
     <div class="cover">
-        <h1>Speaking Up For Mom</h1>
+        <h1><a href="javascript: scrollIntoView('contents');">Speaking Up For Mom</a></h1>
         <img src="./images/mom_and_me.jpeg" />
-        <h2>Our Crucial Role in Our Loved One's Medical Care</h2>
+        <h2><a href="javascript: scrollIntoView('contents');">Our Crucial Role in Our Loved One's Medical Care</a></h2>
         <!--<img src="/images/flower.png"/>-->
         <div>
             <h3>By <a href="./book/about.html">Llee Sivitz</a></h3>
@@ -35,79 +44,79 @@
         </div>
     </div>
 
-    <ul class="pages">
+    <ul id="contents" class="pages">
         
-            <li class="copyright contents_other">
+            <li id="copyright" class="contents_other">
                  
                 <a href="./book/copyright.html">Copyright</a>
             </li>
         
-            <li class="dedication contents_other">
+            <li id="dedication" class="contents_other">
                  
                 <a href="./book/dedication.html">Dedication</a>
             </li>
         
-            <li class="preface contents_other">
+            <li id="preface" class="contents_other">
                  
                 <a href="./book/preface.html">Preface</a>
             </li>
         
-            <li class="doctorisin contents_dredd">
+            <li id="doctorisin" class="contents_dredd">
                  
                 <a href="./book/doctorisin.html">The Doctor Is In...Dr. Edd Hanzelik</a>
             </li>
         
-            <li class="acknowledgements contents_other">
+            <li id="acknowledgements" class="contents_other">
                  
                 <a href="./book/acknowledgements.html">Acknowledgements</a>
             </li>
         
-            <li class="introduction contents_other">
+            <li id="introduction" class="contents_other">
                  
                 <a href="./book/introduction.html">A True Story</a>
             </li>
         
-            <li class="ch1 contents_chapter">
+            <li id="ch1" class="contents_chapter">
                  <span class="num">one</span>  
                 <a href="./book/ch1.html">Emergency Room</a>
             </li>
         
-            <li class="dredd_ch1 contents_dredd">
+            <li id="dredd_ch1" class="contents_dredd">
                  
                 <a href="./book/dredd_ch1.html">The Doctor On Trust</a>
             </li>
         
-            <li class="ch2 contents_chapter">
+            <li id="ch2" class="contents_chapter">
                  <span class="num">Two</span>  
                 <a href="./book/ch2.html">Doctors</a>
             </li>
         
-            <li class="dredd_ch2 contents_dredd">
+            <li id="dredd_ch2" class="contents_dredd">
                  
                 <a href="./book/dredd_ch2.html">The Doctor On Choosing A Physician</a>
             </li>
         
-            <li class="ch3 contents_chapter">
+            <li id="ch3" class="contents_chapter">
                  <span class="num">Three</span>  
                 <a href="./book/ch3.html">Moving</a>
             </li>
         
-            <li class="dredd_ch3 contents_dredd">
+            <li id="dredd_ch3" class="contents_dredd">
                  
                 <a href="./book/dredd_ch3.html">The Doctor On Losing One's Independence</a>
             </li>
         
-            <li class="comingsoon contents_other">
+            <li id="comingsoon" class="contents_other">
                  
                 <a href="./book/comingsoon.html">More Coming Soon!</a>
             </li>
         
-            <li class="about contents_other">
+            <li id="about" class="contents_other">
                  
                 <a href="./book/about.html">About the Author</a>
             </li>
         
-            <li class="aboutdredd contents_dredd">
+            <li id="aboutdredd" class="contents_dredd">
                  
                 <a href="./book/aboutdredd.html">About Dr. Edd Hanzelik</a>
             </li>
