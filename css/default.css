@@ -160,6 +160,9 @@ strong {
   letter-spacing: 0.06em;
   font-weight: 400; }
 
+.chapter .chbody hr {
+  width: 4%; }
+
 .chapter .chbody .footnoteRef {
   font-size: 80%;
   text-transform: none;
@@ -188,10 +191,10 @@ strong {
     /*margin: 0.3em 0;*/ }
   .book ul {
     margin: 1em 0; }
-  .book #dedication, .book #copyright, .book #foreward, .book #preface, .book #acknowledgements, .book #introduction, .book #doctorisin, .book #intro, .book #about, .book #aboutdredd, .book #comingsoon {
-    margin-top: 0.7em;
+  .book #dedication, .book #copyright, .book #foreward, .book #preface, .book #acknowledgements, .book #doctorisin, .book #intro, .book #about, .book #aboutdredd, .book #comingsoon {
+    margin: 0.7em 0;
     font-weight: 400;
-    font-size: 90%;
+    font-size: 85%;
     text-transform: uppercase;
     letter-spacing: 0.05em; }
   .book .contents_chapter,
