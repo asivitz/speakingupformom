@@ -47,18 +47,29 @@ strong {
     margin-bottom: 0.3em; }
   .cover h2 {
     margin-top: 0.3em;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.8em;
     font-size: 120%;
     text-align: center;
     width: 70%; }
   .cover img {
     /*border: 1px solid #ccc;*/
     /*padding: 0.2em;*/
-    margin: 1.8em; }
+    margin: 1.2em;
+    width: 12em; }
+  .cover .image {
+    background-image: url("/images/sufmbook_cover.jpg");
+    width: 12.54753em;
+    height: 15em;
+    box-shadow: 0 0 4px 4px white inset;
+    background-size: cover;
+    margin: 0em auto; }
   .cover h3 {
-    margin: 0.4em 0; }
+    margin: 0.2em 0;
+    font-size: 90%; }
   .cover div h3:nth-child(2) {
     padding-left: 1em; }
+  .cover hr {
+    width: 80%; }
 
 .dredd .chtitle h1 {
   font-size: 90%; }
@@ -192,7 +203,7 @@ strong {
     /*margin: 0.3em 0;*/ }
   .book ul {
     margin: 1em 0; }
-  .book #dedication, .book #copyright, .book #foreward, .book #preface, .book #acknowledgements, .book #doctorisin, .book #intro, .book #about, .book #aboutdredd, .book #comingsoon {
+  .book #dedication, .book #copyright, .book #foreward, .book #preface, .book #acknowledgements, .book #doctorisin, .book #intro, .book #about, .book #aboutdredd, .book #comingsoon, .book #e1, .book #e5, .book #e10 {
     margin: 0.7em 0;
     font-weight: 400;
     font-size: 85%;
