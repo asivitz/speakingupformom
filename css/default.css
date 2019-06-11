@@ -62,7 +62,7 @@ strong {
     height: 15em;
     box-shadow: 0 0 4px 4px white inset;
     background-size: cover;
-    margin: 0em auto; }
+    margin: 2em auto; }
   .cover h3 {
     margin: 0.2em 0;
     font-size: 90%; }
@@ -317,3 +317,7 @@ p.caption {
   text-align: center; }
   .picdiv .picture {
     border: 0.05em solid black; }
+
+#buy {
+  margin: 0 auto;
+  width: 171px; }
