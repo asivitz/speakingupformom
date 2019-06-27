@@ -42,7 +42,7 @@ strong {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid black;
-  padding-bottom: 2em; }
+  padding-bottom: 1em; }
   .cover h1 {
     margin-bottom: 0.3em; }
   .cover h2 {
@@ -221,8 +221,8 @@ strong {
     text-transform: uppercase;
     font-size: 60%;
     position: absolute;
-    left: -4.5em;
-    width: 4em;
+    left: -7.5em;
+    width: 7em;
     text-align: right;
     top: 0.17em; }
   .book .pages li {
