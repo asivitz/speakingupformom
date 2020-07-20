@@ -10,7 +10,6 @@ body {
   @media screen and (max-width: 750px) {
     body {
       margin: 1em 0.5em; } }
-
 img {
   max-width: 100%;
   height: auto; }
@@ -23,7 +22,6 @@ img {
   @media screen and (min-width: 414px) and (max-width: 750px) {
     img {
       max-width: 320px; } }
-
 p {
   line-height: 1.35;
   margin: 0.7em 0; }
@@ -316,3 +314,6 @@ p.caption {
 #buy {
   margin: 0 auto;
   width: 171px; }
+
+.extras div {
+  margin: 1em 0; }
